@@ -1,0 +1,35 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0);
+  width: 100%;
+  height: 80px;
+  padding: 20px 0 40px 0;
+  /* position: absolute;
+  left: 0px;
+  bottom: 0px; */
+}
+
+.Social .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+}
+
+.social a:hover {
+  color: orange;
+}
+
+a span {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
