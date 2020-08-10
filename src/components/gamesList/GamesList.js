@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import Header from "../common/Header";
 import { API_URL } from "../../config";
 import Loading from "../common/Loading";
 import Table from "./Table";
@@ -84,6 +85,7 @@ class GamesList extends Component {
 
     return (
       <div>
+        <Header />
         <Table games={games} />
         <PageButtons
           page={page}

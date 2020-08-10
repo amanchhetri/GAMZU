@@ -41,7 +41,11 @@
 
 .Search-input:focus {
   outline: none;
-  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.Search-input:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .Search ::placeholder {
@@ -60,7 +64,7 @@
   width: 100%;
   max-height: 299px;
   overflow-y: auto;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   border: 1px solid #fff;
   border-radius: 4px;
   box-shadow: 0px 0px 40px 0px#1f364d;

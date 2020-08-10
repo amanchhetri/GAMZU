@@ -9,7 +9,7 @@
 }
 
 .Table-head {
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .Table-head tr th {
@@ -22,7 +22,6 @@
 
 .Table-body {
   text-align: left;
-  background-color: rgba(0, 0, 0);
 }
 
 .Table-body tr td {
@@ -30,15 +29,4 @@
   border-bottom: 2px solid #0c2033;
   color: #fff;
   cursor: pointer;
-}
-
-.Table-rank {
-  color: #9cb3c9;
-  margin-right: 18px;
-  font-size: 12px;
-}
-
-.Table-dollar {
-  color: #9cb3c9;
-  margin-right: 6px;
 }

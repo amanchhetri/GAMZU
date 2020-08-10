@@ -201,7 +201,12 @@ template {
 }
 
 body {
-  background-color: #fff;
+  /* background-color: rgba(0, 0, 0, 0.98); */
+  background-image: url("../src/images/game4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "Open Sans", sans-serif;
   color: #fff;
   letter-spacing: 0.5px;

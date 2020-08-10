@@ -1,7 +1,7 @@
 .Pagination {
   /* margin: 50px auto; */
   text-align: center;
-  background-color: black;
+  /* background-color: black; */
   padding: 50px 0;
 }
 
@@ -9,7 +9,7 @@
   text-align: center;
   border: none;
   border-radius: 16px;
-  background-color: #4997e5;
+  background-color: rgba(0, 0, 0, 0.3);
   transition: background-color 0.2s;
   color: white;
   cursor: pointer;
@@ -19,7 +19,7 @@
 }
 
 .Pagination-button:hover {
-  background-color: #457cb2;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .Pagination-button:focus {
@@ -27,7 +27,7 @@
 }
 
 .Pagination-button:disabled {
-  background-color: #1f364d;
+  background-color: rgba(0, 0, 0, 0.9);
   cursor: not-allowed;
 }
 
