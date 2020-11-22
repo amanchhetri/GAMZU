@@ -108,7 +108,15 @@ class Detail extends Component {
           </div>
           <div className="Detail-item">
             Metacritic:{" "}
-            <span className="Detail-value">{gameData.metacritic}</span>
+            {/* <span className="Detail-value">{gameData.metacritic}</span> */}
+            <a
+              href={gameData.metacritic_url}
+              className="meta"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="Detail-value">{gameData.metacritic}</span>
+            </a>
           </div>
           <div className="Detail-item">
             Platforms:{" "}

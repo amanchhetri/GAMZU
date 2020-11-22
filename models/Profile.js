@@ -6,6 +6,11 @@ const ProfileSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: "users",
   },
+  handle: {
+    type: String,
+    required: true,
+    max: 30,
+  },
   displayName: {
     type: String,
     requied: true,
@@ -21,7 +26,7 @@ const ProfileSchema = new Schema({
     type: Number,
   },
   favGenre: {
-    type: String,
+    type: [String],
   },
   social: {
     youtube: {
